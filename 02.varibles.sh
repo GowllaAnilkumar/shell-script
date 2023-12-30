@@ -10,7 +10,6 @@ echo "$PERSON1:  Welcome"
 
 USER=$3
 PASSWORD=$4
-echo "user is : $USER, password is : $PASSWORD"
 
 echo "please enter user: password:"
 read -s "user : password"
