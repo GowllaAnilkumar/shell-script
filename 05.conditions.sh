@@ -1,6 +1,6 @@
 #!/bin/bash
 NUMBER=$
-if [ $NUMBER -gt 100 ] 
+if [ $NUMBER -gt: 100 ] 
 then
    echo "given number $NUMBER is graterthan 100"
 else
