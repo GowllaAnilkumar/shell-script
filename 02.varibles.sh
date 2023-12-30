@@ -12,5 +12,5 @@ USER=$3
 PASSWORD=$4
 
 echo "please enter user: password:"
-read -s "user:  password:"
+read -s 
 echo "user is: $USER, password is : $PASSWORD "
