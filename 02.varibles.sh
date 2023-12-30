@@ -8,6 +8,6 @@ echo "$PERSON1: Iam doing good"
 echo "$PERSON2: Thank you"
 echo "$PERSON1:  Welcome"
 
-USER=$1
-PASSWORD=$2
+USER=$3
+PASSWORD=$4
 echo "user is : $USER, password is : $PASSWORD"
