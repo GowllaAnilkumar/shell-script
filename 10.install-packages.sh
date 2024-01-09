@@ -8,7 +8,7 @@ TIMESTAMP=$(date +%F-%H-%M-%S)
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
 echo "script started excuting at $TIMESTAMP" &>> $LOGFILE
 VALIDATE
-    if [ $1 -ne 0]
+    if [ $1 -ne 0 ]
     then
         echo -e "$2 ... $R faild $N"
     else 
@@ -25,7 +25,7 @@ fi
 for package in $0
 do
     yum listalled $package &>> $LOGFILE #check installed or not
-    if [ $? -ne 0]
+    if [ $? -ne 0 ]
     then
         yum install $package -y &>> $LOGFILE #if not installed install package
     VALIDATE $? "installation of $package" # validate
